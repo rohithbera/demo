@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function setcookie(cname, cvalue, exdays) {
+            const d = new Data();
+            d.settime(d.gettime) + (exdays*24*60*60*1000);
+            let expres = "expires=" + d.toUTCString();
+            document.cookie = cname + ";" +expries + "path=/";
+        }
+
+        function get cookie(cname) {
+            let name = cname + "=";
+            let decodedcookie = decodeURIComponent(document.cookie);
+            let ca = decodedcookie.split(';');
+            for( let i = 0; i<ca.length; i++); {
+                let c = ca[i];
+                while(c.substring(1));
+            }
+            if(c.indexoOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return"";
+            }
+          
+        let data = "javascript";
+
+        let [a1, a2, a3, a4, a5] = data;
+
+        console.log(a2);
+            
+       
+          
+          
+    </script>
+</body>
+</html>
